@@ -1,0 +1,17 @@
+{
+  "name": "ippure",
+  "version": "1.0.0",
+  "description": "IPPure - Professional IP Purity Detection Platform",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "echo 'Build complete'",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241106.0",
+    "wrangler": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
